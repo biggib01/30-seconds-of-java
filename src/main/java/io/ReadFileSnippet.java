@@ -36,15 +36,20 @@ import java.util.stream.Stream;
  */
 public class ReadFileSnippet {
 
+  private ReadFileSnippet() {
+
+  }
+
   /**
    * Read file using stream and return list of string lines.
    *
    * @param fileName file to read
    * @throws FileNotFoundException if an I/O error occurs
    */
+
   public static List<String> readFile(String fileName) throws FileNotFoundException {
     try (Stream<String> stream = new BufferedReader(new FileReader(fileName)).lines()) {
-      return stream.collect(Collectors.toList());
+      return stream.toList();
     }
   }
 }

@@ -28,6 +28,10 @@ package math;
  * LeastCommonMultipleSnippet.
  */
 public class LeastCommonMultipleSnippet {
+
+  private LeastCommonMultipleSnippet() {
+
+  }
   /**
    * Least common multiple  calculation.
    *
@@ -35,6 +39,7 @@ public class LeastCommonMultipleSnippet {
    * @param b other number whose lcm is to be computed
    * @return lcm of the two numbers
    */
+
   public static int lcm(int a, int b) {
     int max = a > b ? a : b;
     int min = a < b ? a : b;

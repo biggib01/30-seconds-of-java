@@ -30,6 +30,10 @@ package algorithm;
 
 public class BinarySearchSnippet {
 
+  private BinarySearchSnippet() {
+
+  }
+
   /**
    * Search an item with binarySearch algorithm.
    *

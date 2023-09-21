@@ -34,6 +34,10 @@ import java.util.Date;
  */
 public class AddDaysToDateSnippet {
 
+  private AddDaysToDateSnippet() {
+
+  }
+
   /**
    * Add days to given date.
    *

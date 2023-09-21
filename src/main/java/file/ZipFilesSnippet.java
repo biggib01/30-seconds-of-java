@@ -36,6 +36,10 @@ import java.util.zip.ZipOutputStream;
  */
 public class ZipFilesSnippet {
 
+  private ZipFilesSnippet() {
+
+  }
+
   /**
    * Zip multiples files.
    *
